@@ -1,0 +1,35 @@
+
+header {
+    width: 100%;
+    padding: 10px 30px 10px 800px;
+}
+
+h1 {
+    color: grey;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    line-height: 600px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: white;
+}
+
+.nav-link:hover {
+    color: red
+}
+
+#hero {
+    height: 600px;
+    background-color: rgb(126, 125, 125);s
+}
+
+footer {
+    height: 40px;
+    background-color: coral;
+    margin-top: 20px;
+}
