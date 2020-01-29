@@ -9,13 +9,20 @@ h1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h2 {
+
+#hero h2 {
     font-size: 60px;
     text-align: center;
     line-height: 375px;
     color: #444347;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.contact-heading h2 {
+    color: #444347;
+    margin: 30px 0px 10px 30px;
+    padding: 10px;
+}
+
 
 .container-fluid {
     padding-top: 20px;
@@ -43,6 +50,11 @@ h2 {
     background-position: center;
 }
 
+.about {
+    margin: 70px 30px 100px 30px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
 
 footer {
     height: 40px;
@@ -73,4 +85,16 @@ footer {
     font-size: 16px;
     text-align: center;
     line-height: 10px;
+}
+
+/* contact form */
+
+.contact-form {
+    margin: 10px 10px 100px 10px;
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+#inputMessage {
+    height: 250px;
 }
